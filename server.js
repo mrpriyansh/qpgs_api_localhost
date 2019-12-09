@@ -71,7 +71,7 @@ const database={
 	]
 
 }
-pp.get('/',(req,res)=>{res.send('it is working')});
+app.get('/',(req,res)=>{res.send('it is working')});
 
 // app.get('/',(req,res)=>{
 // 	res.send(database.users);
