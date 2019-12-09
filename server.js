@@ -316,6 +316,6 @@ app.delete('/profile/delete',(req,res)=>{
 	const {qid}=req.body;
 	dat
 })*/
-app.listen(3000,()=>{
-	console.log('app is running');
+app.listen(process.env.PORT || 3000,()=>{
+	console.log(`app is running ${process.env.PORT || 3000}`);
 });
